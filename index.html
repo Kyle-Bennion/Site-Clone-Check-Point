@@ -13,7 +13,7 @@
     }
 
     .row {
-      height: 100px;
+      height: 600px;
     }
   </Style>
 
@@ -21,9 +21,17 @@
 
 <body>
 
-  <header class="container-fluid">
+  <header class="container-fluid bg-dark">
     <section class="row">
-
+      <div class="col-12">
+        <nav class="navbar navbar-light bg-light">
+          <a class="navbar-brand" href="#">
+            <img src="/docs/4.5/assets/brand/bootstrap-solid.svg" width="30" height="30"
+              class="d-inline-block align-top" alt="" loading="lazy">
+            Bootstrap
+          </a>
+        </nav>
+      </div>
     </section>
   </header>
 
@@ -31,16 +39,41 @@
     <!--Form/Text over IMG  -->
     <section class="row">
       <div class="col-6">
-
+        <h5>subtle heading</h5>
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Full Name</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Jonathan Dough">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Intrests</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        </form>
       </div>
       <div class="col-6">
-
+        <h3>
+          Text Over Image
+        </h3>
+        <p class="border-left">
+          Guns Go BANG BANG!!!Guns Go BANG BANG!!!Guns Go BANG BANG!!!Guns Go BANG BANG!!!Guns Go BANG BANG!!!Guns Go
+          BANG BANG!!!Guns Go BANG BANG!!!Guns Go BANG BANG!!!Guns Go BANG BANG!!!Guns Go BANG BANG!!!Guns Go BANG
+          BANG!!!Guns Go BANG BANG!!!
+        </p>
       </div>
     </section>
     <!--Card Spill  -->
-    <section class="row">
+    <section class="row bg-dark">
       <div class="col-6">
-
+        <h4>This is some more really important gun stuff</h4>
+        <h5>Less important cause its smaller but still need it</h5>
+        <p>Guns Go BANG BANG!!!Guns Go BANG BANG!!!Guns Go BANG BANG!!!Guns Go BANG BANG!!!Guns Go BANG BANG!!!Guns Go
+          BANG BANG!!!Guns Go BANG BANG!!!Guns Go BANG BANG!!!Guns Go BANG BANG!!!Guns Go BANG BANG!!!Guns Go BANG
+          BANG!!!Guns Go BANG BANG!!!</p>
       </div>
       <div class="col-6">
 
@@ -56,7 +89,7 @@
       </div>
     </section>
     <!--3 Cards-->
-    <section class="row">
+    <section class="row bg-dark">
       <div class="col-4">
 
       </div>
@@ -68,7 +101,7 @@
       </div>
     </section>
     <!--Blanket Info Page-->
-    <section class="row">
+    <section class="row bg-warning">
       <div class="col-12">
 
       </div>
@@ -76,7 +109,7 @@
   </main>
 
 
-  <footer class="container-fluid">
+  <footer class="container-fluid bg-danger">
     <section class="row">
 
     </section>
